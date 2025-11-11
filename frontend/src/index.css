@@ -1,0 +1,118 @@
+/* index.css - base, tipografía y diseño limpio */
+:root{
+  --bg: #f4f7fb;
+  --card: #ffffff;
+  --primary: #2563eb;
+  --accent: #06b6d4;
+  --text: #0f172a;
+  --muted: #64748b;
+  --shadow: 0 6px 18px rgba(14, 42, 71, .08);
+  --radius: 12px;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+*{ box-sizing: border-box; }
+
+html,body,#root{
+  height:100%;
+  background: linear-gradient(180deg, #eef2ff 0%, var(--bg) 100%);
+  margin:0;
+  color:var(--text);
+}
+
+.container {
+  max-width:980px;
+  margin: 40px auto;
+  padding: 24px;
+}
+
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 22px;
+}
+
+.header {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom: 18px;
+}
+
+.brand {
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+
+.logo {
+  width:48px;
+  height:48px;
+  border-radius:10px;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  font-weight:700;
+  font-size:18px;
+  box-shadow: 0 6px 20px rgba(37,99,235,.15);
+}
+
+.title { font-size:20px; font-weight:600; }
+
+.form-row { margin-bottom:12px; display:flex; gap:12px; }
+.input {
+  flex:1;
+  border-radius:10px;
+  border:1px solid #e6eef8;
+  padding:10px 12px;
+  font-size:14px;
+  background: #fbfdff;
+}
+.btn {
+  background: var(--primary);
+  color:white;
+  border:none;
+  padding:10px 14px;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:600;
+}
+.btn.secondary {
+  background:#eef2ff;
+  color:var(--primary);
+  border:1px solid rgba(37,99,235,0.08);
+}
+
+.center { text-align:center; }
+
+.message { color:var(--muted); margin-top:10px; }
+
+.grid {
+  display:grid;
+  grid-template-columns: 1fr 320px;
+  gap:18px;
+  align-items:start;
+}
+
+/* Dashboard panel */
+.panel {
+  padding:18px;
+  border-radius:12px;
+  background: linear-gradient(180deg, #fff, #fcfdff);
+  box-shadow:0 6px 18px rgba(10,20,40,0.03);
+}
+
+/* pre for result */
+.result {
+  background:#0b1220;
+  color:#dbeafe;
+  padding:12px;
+  border-radius:8px;
+  font-family: monospace;
+  font-size:13px;
+  white-space:pre-wrap;
+}

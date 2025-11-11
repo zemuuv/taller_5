@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<usuarios>
+  <usuario>
+    <username>admin</username>
+    <password>1234</password>
+    <email>admin@gmail.com</email>
+  </usuario>
+  <usuario>
+    <username>tomas</username>
+    <password>qwer</password>
+    <email>tomas@test.com</email>
+  </usuario>
+  <usuario>
+    <username>hola</username>
+    <password>1234</password>
+    <email>hola@gmail.com</email>
+  </usuario>
+  <usuario>
+    <username>pepe</username>
+    <password>1234</password>
+    <email>pepe@gmail.com</email>
+  </usuario>
+  <usuario>
+    <username>samuel</username>
+    <password>1234</password>
+    <email>asyou@hotmail.com</email>
+  </usuario>
+</usuarios>

@@ -1,0 +1,83 @@
+.dashboard-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(30, 30, 30, 0.9);
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 40px;
+}
+
+.dashboard-header h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.username {
+  font-weight: 600;
+  color: #00adb5;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: rgba(20, 20, 20, 0.9);
+  border-radius: 16px;
+  padding: 40px;
+  width: 600px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.45);
+  text-align: center;
+}
+
+.card p {
+  margin-bottom: 25px;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn.primary {
+  background-color: #00adb5;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background-color: #00c2cf;
+}
+
+.btn.secondary {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.btn.secondary:hover {
+  background-color: #383838;
+}

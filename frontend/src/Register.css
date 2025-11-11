@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  height: 100vh;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.register-card {
+  background-color: #1e1e1e;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  width: 380px;
+  text-align: center;
+}
+
+.register-title {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.register-subtitle {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 25px;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2a2a2a;
+  color: #fff;
+  font-size: 14px;
+}
+
+.input:focus {
+  outline: 2px solid #00adb5;
+  background-color: #333;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn.primary {
+  background-color: #00adb5;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background-color: #00c2cf;
+}
+
+.register-message {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #ccc;
+  text-align: center;
+  word-wrap: break-word;
+}
